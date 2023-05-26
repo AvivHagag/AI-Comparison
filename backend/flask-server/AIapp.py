@@ -1,12 +1,9 @@
-import difflib
-import json
 import requests
 # Import os to set API key
 import os
 # Import OpenAI as main LLM service
 from langchain.llms import OpenAI
-# Bring in streamlit for UI/app interface
-import streamlit as st
+
 from langchain import PromptTemplate, LLMChain
 import re
 
