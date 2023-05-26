@@ -44,11 +44,12 @@ def function(name):
                 # Send a request to get the file content
                 response = requests.get(url)
                 # Append the JSON response to the array
-                json_array.append(response.json())
+                jsons=response.json()
+                json_array.append(jsons)
                 break  # Break out of the while loop if the code block executes successfully
             
             except Exception as e:
-                print(f"An error occurred: {e}")
+                print(f"An error occurred ( requests Library): {e}")
                 continue  # Continue to the next iteration of the while loop if an error occurs
 
 # The code outside the loop (if any) will continue executing after the loop completes
@@ -95,11 +96,10 @@ def function(name):
 
     processed_reviews_str = "\n".join(processed_reviews)
     Ques="i have "+ str(number) +" products review, identify differences or similarities between them\n"+processed_reviews_str
-    # print(Ques)
 
     # Set APIkey for OpenAI Service
     # Can sub this out for other LLM providers
-    os.environ['OPENAI_API_KEY'] = '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'
+    os.environ['OPENAI_API_KEY'] = 'ENTER-YOUR-API-HERE'
 
     """
     This code demonstrates the usage of the `langchain.llms` module to interact with the OpenAI language model.
@@ -122,6 +122,6 @@ def function(name):
     question = Ques
     Result=llm_chain.run(question)
 
-    return(Result)
     print("############# End of Function #################")
-    
+    return(Result)
+
