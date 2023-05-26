@@ -10,13 +10,11 @@ const Report = (links) => {
   useEffect(() => {
     axios.post('http://127.0.0.1:5000/AI/answer', json)
   .then(response => {
-    // Handle the response from the server
     setData(response.data);
     console.log(response);
     return;
   })
   .catch(error => {
-    // Handle any errors that occurred during the request
     console.error(error);
   });
   }, [links]);

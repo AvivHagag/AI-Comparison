@@ -6,10 +6,11 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
+// Remove Strict Mode to allow faster development
   // <React.StrictMode>
     <App />
  // </React.StrictMode>
+  
 );
 
 
