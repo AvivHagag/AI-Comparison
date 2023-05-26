@@ -22,22 +22,22 @@ const Report = (links) => {
   }, [links]);
 
 
-    return (
-      <div className="Report">
-        <h2>Report</h2>
-        <br />
-        {data === 'Loading....' ? (
-        <p>{data}
-        <div className="loading-spinner">
-          <div className="spinner">
+  return (
+    <div className="Report">
+      <h2>Report</h2>
+      <br />
+      {data === 'Loading....' ? (
+        <div>
+          <p>{data}</p>
+          <div className="loading-spinner">
+            <div className="spinner"></div>
           </div>
         </div>
-        </p>
       ) : (
         <p>{data}</p>
       )}
-      </div>
-    );
+    </div>
+  );  
   }
    
   export default Report;
