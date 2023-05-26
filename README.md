@@ -2,6 +2,8 @@
 
 This repository contains a React-based website that utilizes artificial intelligence to compare products based on their reviews. The website allows users to send drive links of JSON files containing product data, which are then processed by the AI model. The comparison results are displayed on the website, providing insights into the products based on their reviews.
 
+![Alt Text]([url=https://ibb.co/xYBH9Dc][img]https://i.ibb.co/xYBH9Dc/Screenshot-2023-05-26-at-19-56-37.png[/img][/url])
+
 ## Features
 
 Upload JSON files from Google Drive: Users can provide drive links of JSON files containing product data. These files should follow a specific structure to ensure proper processing by the AI model.
@@ -9,9 +11,9 @@ Artificial Intelligence Comparison: The uploaded data is processed by an AI mode
 Interactive User Interface: The React website offers a user-friendly interface where users can easily upload the JSON files, view the comparison results, and interact with the analyzed data.
 
 ### Installation
-- npm install
-- pip install langchain 
-- pip install openai
+- `npm install`
+- `pip install langchain`
+- `pip install openai`
 
 ### Instruction
 - Go to path : 'backend/AIApp.py' and set your Open AI API insted 'ENTER-YOUR-API-HERE' in line 102
