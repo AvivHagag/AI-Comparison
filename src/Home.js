@@ -20,7 +20,12 @@ const Home = () => {
       console.log(url);
       setLinks([...links, url]); // Update the state with the new URL
       setCount(count+1);
-      setText('You entered ' + (count+1) +' links, enter at least 1 more link here:');
+      if(links.length == 0) {
+        setText('You entered ' + (count+1) +' links, enter at least 1 more link here:');
+      }
+      else {
+        setText('You entered ' +(count+1));
+      }
       setUrl(''); // Reset the url state to clear the input
     }
     else {

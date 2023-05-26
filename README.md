@@ -12,8 +12,11 @@ Interactive User Interface: The React website offers a user-friendly interface w
 - npm install
 - pip install langchain 
 - pip install openai
+
+### Instruction
 - Go to path : 'backend/AIApp.py' and set your Open AI API insted 'ENTER-YOUR-API-HERE' in line 102
-- Go to server.py file and click "Run" to upload the server and then go to app.js and write in the console "npm run start"
+- Go to server.py file and click "Run" or write in terminal "python3 server.py" to upload the server 
+- Go then go to app.js and write in the terminal "npm run start"
 
 
 ### Example links for pasting on the website:
