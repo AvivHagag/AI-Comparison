@@ -1,4 +1,4 @@
-# React Website: Comparing Products with AI
+# Comparing Products with AI
 
 This repository contains a React-based website that utilizes artificial intelligence to compare products based on their reviews. The website allows users to send drive links of JSON files containing product data, which are then processed by the AI model. The comparison results are displayed on the website, providing insights into the products based on their reviews.
 
