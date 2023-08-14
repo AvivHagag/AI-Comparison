@@ -1,16 +1,20 @@
 # Comparing Products with AI
 
-This repository contains a React-based website that utilizes artificial intelligence to compare products based on their reviews. The website allows users to send drive links of JSON files containing product data, which are then processed by the AI model. The comparison results are displayed on the website, providing insights into the products based on their reviews.
+The AI comparison site is an innovative platform that allows users to effortlessly compare products from Amazon using the power of artificial intelligence (AI) and natural language processing (NLP). This README provides an overview of the site's main features, functionality and how to effectively use the platform.
 
 ![Alt Text](https://user-images.githubusercontent.com/114755882/241282505-01f15a2d-0562-4b71-a383-e89796c15153.jpg)
 
 ![Alt Text](https://user-images.githubusercontent.com/114755882/241282676-35eb23ed-ac3e-42bd-8296-b6f7812b1001.jpg)
 
-## Features
+### Properties
+Direct Amazon product link integration
+Users can now add links directly to Amazon product pages they want to compare. Simply provide the Amazon links, and the AI model will extract the product data needed for analysis.
 
-Upload JSON files from Google Drive: Users can provide drive links of JSON files containing product data. These files should follow a specific structure to ensure proper processing by the AI model.
-Artificial Intelligence Comparison: The uploaded data is processed by an AI model, which analyzes the reviews and provides a comparison of the products. The AI model uses natural language processing techniques to understand the sentiment and key features mentioned in the reviews.
-Interactive User Interface: The React website offers a user-friendly interface where users can easily upload the JSON files, view the comparison results, and interact with the analyzed data.
+### Comparing products powered by AI
+Our advanced AI model performs an in-depth analysis of the product reviews associated with the provided Amazon links. Using advanced NLP techniques, the model understands the sentiment expressed in reviews and identifies key features emphasized by customers.
+
+### Comprehensive comparison results
+After the AI analysis is complete, the site presents users with a comprehensive comparison of the products. This comparison is based on the sentiment and key features extracted from the reviews. Users receive important insights regarding the differences and similarities of the products and in addition a recommendation which product is the most recommended according to the AI analysis
 
 ### Installation
 - `npm install`
