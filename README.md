@@ -3,7 +3,7 @@
 The AI comparison site is an innovative platform that allows users to effortlessly compare products from Amazon using the power of artificial intelligence (AI) and natural language processing (NLP). This README provides an overview of the site's main features, functionality and how to effectively use the platform.
 
 ## Video introduce of the project:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Damig8zPn9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Damig8zPn9w/0.jpg)](https://www.youtube.com/watch?v=Damig8zPn9w)
 
 
 ## Home Page:
