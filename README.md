@@ -27,14 +27,3 @@ After the AI analysis is complete, the site presents users with a comprehensive 
 - Go then go to app.js and write in the terminal "npm run start"
 
 
-### Example links for pasting on the website:
-
-https://drive.google.com/file/d/1yw-NCAtbj-6ZBZoAMrqlfZJ7hqAJjdXu/view?usp=sharing
- 
-https://drive.google.com/file/d/1YyDUejDkItv12Z9mcN4K5KSBdsSI73pv/view?usp=sharing
-
-https://drive.google.com/file/d/1GPhbmxkWm_9ANx3EqeYCxkrNqsYIsjH_/view?usp=sharing
-
-https://drive.google.com/file/d/1FkZFUcEnesw8EZVXPWgdwaLQm_JbEU8c/view?usp=sharing
- 
-https://drive.google.com/file/d/16vKzWx6SDIzaEUe8a6iMVmkT6pkwMZLG/view?usp=sharing
