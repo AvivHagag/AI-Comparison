@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Report from './Report';
 export let Val = '0'; // Set a default value
 
@@ -32,8 +32,11 @@ const Home = () => {
       console.log(url);
       setLinks([...links, url]); // Update the state with the new URL
       setCount(count+1);
-      if(links.length == 0) {
+      if(links.length === 0) {
         setText('You entered ' + (count+1) +' links, enter at least 1 more link here:');
+      }
+      if(links.length === 4) {
+        setText('You entered ' + (count+1) +' links, no more can be entered');
       }
       else {
         setText('You entered ' +(count+1));
@@ -89,14 +92,17 @@ const Home = () => {
       <h2>Please insert at least 2 links to run the AI</h2>
       <label>{text}</label>
       <br />
-      <input
+      {count >= 0 && count <= 4 && (
+       <input
         type="text"
         required
         value={url}
         onChange={(e) => inputUrl(e)}
-      />
-      <button className="SearchBtn" onClick={checkEvent}>add</button>
-      <br />
+        /> )} 
+        {count >= 0 && count <= 4 && (
+        <button className="SearchBtn" onClick={checkEvent}>add</button>
+        )}
+        <br />
       {count >= 2 && (
         <button className="Sumbit" onClick={checkSumbit}>
           Submit
